@@ -16,14 +16,21 @@ body {
 }
 
 .page {
+  
     background-color: aliceblue;
-    font-size: 60px;
+    font-size: 50px;
     display: flex;
-    height:80px;
-    justify-content:space-evenly;
+    height:40px;
+    justify-content:space-around;
     align-items: center;
     color:rgb(255, 81, 0);
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.score {
+    position: fixed;
+    top: 0;
+    background: white;
 }
 
 .heading {
